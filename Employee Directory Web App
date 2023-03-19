@@ -24,5 +24,7 @@ user-3 was assigned an inline policy
 
 ## Testrunning the 3 users created
 
+I tried signing in with the different users to ensure that they can access the permissions attached to them.
 
+It was confirmed that they can only access the permissions granted to them.
 
