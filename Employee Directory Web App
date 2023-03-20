@@ -25,32 +25,7 @@ user-1 and user-2 were assigned managed policies
 user-3 was assigned an inline policy
 
 ```
-"Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "VisualEditor0",
-            "Effect": "Allow",
-            "Action": [
-                "ec2:StartInstances",
-                "cloudwatch:DescribeAlarms",
-                "ec2:StopInstances"
-            ],
-            "Resource": [
-                "arn:aws:cloudwatch:*:764648402462:alarm:*",
-                "arn:aws:ec2:*:764648402462:instance/*"
-            ]
-        },
-        {
-            "Sid": "VisualEditor1",
-            "Effect": "Allow",
-            "Action": [
-                "ec2:DescribeInstances",
-                "ec2:DescribeInstanceStatus"
-            ],
-            "Resource": "*"
-        }
-    ]
-}
+
 ```
 
 ## Testrunning the 3 users created
